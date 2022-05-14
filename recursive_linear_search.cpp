@@ -4,7 +4,7 @@
 using namespace std;
 
 bool rlinear_search(vector<int> numbers, int n){
-	int size = vector.size()
+	int size = numbers.size();
 
 	if(size == 0){
 		return false;
@@ -13,7 +13,7 @@ bool rlinear_search(vector<int> numbers, int n){
 		return true;
 	}
 	else{
-		rlinear_search(numbers,size-1, n);
+		rlinear_search(numbers,size-1);
 	}
 	
 }
